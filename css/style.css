@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?-f3vk76');
+	src: url('../fonts/icomoon.eot?#iefix-f3vk76') format('embedded-opentype'),
+		 url('../fonts/icomoon.woff?-f3vk76') format('woff'),
+		 url('../fonts/icomoon.ttf?-f3vk76') format('truetype'),
+		 url('../fonts/icomoon.svg?-f3vk76#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+   font-family: dottedFont;
+   src: url(../fonts/EENobbleeLight.otf);
+}
+
+ul, h1, h5, h3, p {
+	margin: 0; 
+	padding: 0;
+}
+
+body {color: #67686a;}
+
+a, a:hover {color: #fff;}
+
+.ee-font {font-family: dottedFont;}
+
+.page-head {
+	background-color: #3c3d40;
+	padding: 7px 0;
+}
+
+.sub-head {
+	color: #ffe701;
+	background-color: #00808a;
+	padding: 15px 0;
+}
+
+.logo {
+	width: 43px;
+	margin-right: 25px;
+}
+
+.sub-head h3 {font-size: 37px;}
+
+.sub-head ul {font-size: 20px;}
+
+.sub-head li {
+	display: inline;
+	border-right: 1px dotted #fff;
+}
+
+.sub-head li:first-child {padding-right: 13px;}
+.sub-head li:last-child {
+	padding-left: 8px;
+	border-right: none;
+}
+
+.right-col p:first-child {font-size: 16px;}
+.right-col p:last-child {
+	font-size: 35px;
+	line-height: 30px;
+}
+
+#hero-img {
+	background-image: url("../images/businessman_on_beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#hero-img h1 {
+	margin: 50px 15px 0;
+	font-size: 60px;
+}
+
+#hero-img button {
+	margin: 55px 15px 330px;
+}
+
+.norton-title, .norton-copy {background-color: #f6f4f0;}
+
+.norton-title h2 {
+	color: #000;
+	font-size: 45px;
+	font-weight: bolder;
+}
+
+.norton-title h3 {
+	color: #00808a;
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+
+.norton-copy {padding-bottom: 30px;}
+
+.norton-copy :nth-child(2) {padding-bottom: 25px;}
+
+.norton-copy :nth-child(3) {
+	color: #67686a;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.norton-copy a:hover {text-decoration: none;}
+
+.icon-play:before {
+	content: "\e600";
+	color: #67686a;
+	font-size: 40px;
+	line-height: 40px;
+}
+
+.main {padding: 30px 0;}
+
+.main .col-sm-6 {padding: 0 40px 30px;}
+
+.main h4 {color: #00808a;}
+
+.main ul {padding-left: 45px;}
+
+.main li {padding: 8px 0;}
+
+.button-section {padding: 10px 0 70px;}
+
+.btn {
+	height: 40px;
+	width: 180px;
+	color: #fff;
+	border: none;
+	background-color: #00808a;
+	-webkit-transition: background-color .2s ease;
+	-moz-transition: background-color .2s ease;
+	-o-transition: background-color .2s ease;
+	transition: background-color .2s ease;
+}
+
+.btn:hover {background-color: #006871;}
+
+.pre-foot {
+	background-color: #67686a;
+	padding: 30px 0;
+}
+
+.pre-foot h5 {
+	color: #fff;
+	padding-bottom: 12px;
+}
+
+.pre-foot ul {
+	min-height: 110px;
+	list-style-type: none;
+	border-right: 2px dotted #fff;
+}
+
+#col3 {border-right: none;}
+
+.page-foot {background-color: #4d4d4d;}
+
+.page-foot p {
+	color: #fff;
+	margin: 10px 0;
+}
